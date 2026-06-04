@@ -1,11 +1,69 @@
-# Python-generated files
+# Python build/compile files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
 wheels/
-*.egg-info
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Pyenv & local settings
+.python-version
+.python-history
 
 # Virtual environments
-.venv
+.venv/
+venv/
+ENV/
+env/
+
+# Environment configurations
 .env
+.env.*
+!.env.example
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ADK (Agent Development Kit) runtime files
+.adk/
+**/.adk/
+**/session.db
+**/session.db-journal
+**/artifacts/
+
+# Linting, formatting, testing and type checking
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
