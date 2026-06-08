@@ -59,6 +59,7 @@ Desktop.ini
 **/session.db
 **/session.db-journal
 **/artifacts/
+**/*sessions.db
 
 # Linting, formatting, testing and type checking
 .ruff_cache/
